@@ -1,0 +1,102 @@
+.maotk-wpm {
+    max-width: 1280px;
+}
+
+.maotk-wpm-subtitle {
+    color: #4b5563;
+    font-size: 14px;
+    margin: 6px 0 18px;
+}
+
+.maotk-wpm-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.maotk-wpm-card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin: 0 0 16px;
+    padding: 18px;
+}
+
+.maotk-wpm-wide {
+    margin-top: 16px;
+}
+
+.maotk-wpm-card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.maotk-wpm-presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.maotk-wpm-presets .button.is-selected {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+}
+
+.maotk-wpm-runner {
+    max-width: 840px;
+}
+
+.maotk-wpm-progress {
+    background: #f0f0f1;
+    border-radius: 999px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.maotk-wpm-progress span {
+    background: #2271b1;
+    display: block;
+    height: 100%;
+    transition: width 180ms ease;
+    width: 0;
+}
+
+.maotk-wpm-runner-text {
+    margin: 10px 0 0;
+}
+
+.maotk-wpm-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.maotk-wpm-jobs td,
+.maotk-wpm-jobs th {
+    vertical-align: middle;
+}
+
+.maotk-wpm-cleanup-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    margin: 0;
+}
+
+.maotk-wpm-cleanup-list li {
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    margin: 0;
+    padding: 8px 10px;
+}
+
+@media (max-width: 960px) {
+    .maotk-wpm-grid,
+    .maotk-wpm-cleanup-list {
+        grid-template-columns: 1fr;
+    }
+}
