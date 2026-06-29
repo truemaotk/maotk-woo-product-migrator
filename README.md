@@ -5,6 +5,8 @@
 
 这是一个 WooCommerce 产品迁移插件，适合“新站已有内容，只想从旧站导入产品”的场景。插件不会做整站覆盖，而是通过任务队列一个产品一个产品地导出/导入。
 
+WordPress 后台上传安装请使用 `dist/maotk-woo-product-migrator.zip`，不要使用 GitHub 自动生成的 `Source code` 压缩包。
+
 ## 核心功能
 
 - 导出 WooCommerce 产品数据，支持 50、100、250、300 到 1000、全部导出，也支持自定义数量。
